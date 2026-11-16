@@ -1,0 +1,577 @@
+Year,Age Group,Sex,Education Level,Part-time Work Percentage
+2019,All ages,Both sexes,All levels,18.1
+2019,All ages,Both sexes,Primary / Lower Secondary (1–2),25.1
+2019,All ages,Both sexes,Upper / Post-Secondary (3–4),22.9
+2019,All ages,Both sexes,Tertiary (5-8),13.3
+2019,All ages,Male,All levels,8.7
+2019,All ages,Male,Primary / Lower Secondary (1–2),14.1
+2019,All ages,Male,Upper / Post-Secondary (3–4),11.2
+2019,All ages,Male,Tertiary (5-8),5.0
+2019,All ages,Female,All levels,29.0
+2019,All ages,Female,Primary / Lower Secondary (1–2),50.3
+2019,All ages,Female,Upper / Post-Secondary (3–4),38.3
+2019,All ages,Female,Tertiary (5-8),20.9
+2019,20 - 24,Both sexes,All levels,34.9
+2019,20 - 24,Both sexes,Primary / Lower Secondary (1–2),34.2
+2019,20 - 24,Both sexes,Upper / Post-Secondary (3–4),43.4
+2019,20 - 24,Both sexes,Tertiary (5-8),19.6
+2019,20 - 24,Male,All levels,30.0
+2019,20 - 24,Male,Upper / Post-Secondary (3–4),36.2
+2019,20 - 24,Male,Tertiary (5-8),17.3
+2019,20 - 24,Female,All levels,40.1
+2019,20 - 24,Female,Upper / Post-Secondary (3–4),52.2
+2019,20 - 24,Female,Tertiary (5-8),21.6
+2019,25 - 29,Both sexes,All levels,13.2
+2019,25 - 29,Both sexes,Primary / Lower Secondary (1–2),31.5
+2019,25 - 29,Both sexes,Upper / Post-Secondary (3–4),18.6
+2019,25 - 29,Both sexes,Tertiary (5-8),8.7
+2019,25 - 29,Male,All levels,8.5
+2019,25 - 29,Male,Upper / Post-Secondary (3–4),9.8
+2019,25 - 29,Male,Tertiary (5-8),6.4
+2019,25 - 29,Female,All levels,18.4
+2019,25 - 29,Female,Upper / Post-Secondary (3–4),30.5
+2019,25 - 29,Female,Tertiary (5-8),10.9
+2019,30 - 34,Both sexes,All levels,12.5
+2019,30 - 34,Both sexes,Primary / Lower Secondary (1–2),26.5
+2019,30 - 34,Both sexes,Upper / Post-Secondary (3–4),17.2
+2019,30 - 34,Both sexes,Tertiary (5-8),8.5
+2019,30 - 34,Male,All levels,5.6
+2019,30 - 34,Male,Primary / Lower Secondary (1–2),18.4
+2019,30 - 34,Male,Upper / Post-Secondary (3–4),5.1
+2019,30 - 34,Male,Tertiary (5-8),4.0
+2019,30 - 34,Female,All levels,20.1
+2019,30 - 34,Female,Primary / Lower Secondary (1–2),46.9
+2019,30 - 34,Female,Upper / Post-Secondary (3–4),34.9
+2019,30 - 34,Female,Tertiary (5-8),12.5
+2019,35 - 39,Both sexes,All levels,13.8
+2019,35 - 39,Both sexes,Primary / Lower Secondary (1–2),18.7
+2019,35 - 39,Both sexes,Upper / Post-Secondary (3–4),16.9
+2019,35 - 39,Both sexes,Tertiary (5-8),11.7
+2019,35 - 39,Male,All levels,4.1
+2019,35 - 39,Male,Upper / Post-Secondary (3–4),4.8
+2019,35 - 39,Male,Tertiary (5-8),3.1
+2019,35 - 39,Female,All levels,24.8
+2019,35 - 39,Female,Primary / Lower Secondary (1–2),43.8
+2019,35 - 39,Female,Upper / Post-Secondary (3–4),36.4
+2019,35 - 39,Female,Tertiary (5-8),18.9
+2019,40 - 44,Both sexes,All levels,15.5
+2019,40 - 44,Both sexes,Primary / Lower Secondary (1–2),24.3
+2019,40 - 44,Both sexes,Upper / Post-Secondary (3–4),16.7
+2019,40 - 44,Both sexes,Tertiary (5-8),13.7
+2019,40 - 44,Male,All levels,4.0
+2019,40 - 44,Male,Primary / Lower Secondary (1–2),11.1
+2019,40 - 44,Male,Upper / Post-Secondary (3–4),4.7
+2019,40 - 44,Male,Tertiary (5-8),2.2
+2019,40 - 44,Female,All levels,28.6
+2019,40 - 44,Female,Primary / Lower Secondary (1–2),53.4
+2019,40 - 44,Female,Upper / Post-Secondary (3–4),35.1
+2019,40 - 44,Female,Tertiary (5-8),23.8
+2019,45 - 49,Both sexes,All levels,15.9
+2019,45 - 49,Both sexes,Primary / Lower Secondary (1–2),19.7
+2019,45 - 49,Both sexes,Upper / Post-Secondary (3–4),18.3
+2019,45 - 49,Both sexes,Tertiary (5-8),13.5
+2019,45 - 49,Male,All levels,5.3
+2019,45 - 49,Male,Primary / Lower Secondary (1–2),11.4
+2019,45 - 49,Male,Upper / Post-Secondary (3–4),5.5
+2019,45 - 49,Male,Tertiary (5-8),3.3
+2019,45 - 49,Female,All levels,28.2
+2019,45 - 49,Female,Primary / Lower Secondary (1–2),40.3
+2019,45 - 49,Female,Upper / Post-Secondary (3–4),34.7
+2019,45 - 49,Female,Tertiary (5-8),23.1
+2019,50 - 54,Both sexes,All levels,19.2
+2019,50 - 54,Both sexes,Primary / Lower Secondary (1–2),23.5
+2019,50 - 54,Both sexes,Upper / Post-Secondary (3–4),22.4
+2019,50 - 54,Both sexes,Tertiary (5-8),15.0
+2019,50 - 54,Male,All levels,7.0
+2019,50 - 54,Male,Primary / Lower Secondary (1–2),13.4
+2019,50 - 54,Male,Upper / Post-Secondary (3–4),7.5
+2019,50 - 54,Male,Tertiary (5-8),3.0
+2019,50 - 54,Female,All levels,34.1
+2019,50 - 54,Female,Primary / Lower Secondary (1–2),49.9
+2019,50 - 54,Female,Upper / Post-Secondary (3–4),39.3
+2019,50 - 54,Female,Tertiary (5-8),27.2
+2019,55 - 59,Both sexes,All levels,21.2
+2019,55 - 59,Both sexes,Primary / Lower Secondary (1–2),28.9
+2019,55 - 59,Both sexes,Upper / Post-Secondary (3–4),21.7
+2019,55 - 59,Both sexes,Tertiary (5-8),16.7
+2019,55 - 59,Male,All levels,9.2
+2019,55 - 59,Male,Primary / Lower Secondary (1–2),15.1
+2019,55 - 59,Male,Upper / Post-Secondary (3–4),9.3
+2019,55 - 59,Male,Tertiary (5-8),4.4
+2019,55 - 59,Female,All levels,36.1
+2019,55 - 59,Female,Primary / Lower Secondary (1–2),58.1
+2019,55 - 59,Female,Upper / Post-Secondary (3–4),34.7
+2019,55 - 59,Female,Tertiary (5-8),29.7
+2019,60 - 64,Both sexes,All levels,27.8
+2019,60 - 64,Both sexes,Primary / Lower Secondary (1–2),27.5
+2019,60 - 64,Both sexes,Upper / Post-Secondary (3–4),26.9
+2019,60 - 64,Both sexes,Tertiary (5-8),29.2
+2019,60 - 64,Male,All levels,16.0
+2019,60 - 64,Male,Primary / Lower Secondary (1–2),17.3
+2019,60 - 64,Male,Upper / Post-Secondary (3–4),14.1
+2019,60 - 64,Male,Tertiary (5-8),15.8
+2019,60 - 64,Female,All levels,43.2
+2019,60 - 64,Female,Primary / Lower Secondary (1–2),49.6
+2019,60 - 64,Female,Upper / Post-Secondary (3–4),41.9
+2019,60 - 64,Female,Tertiary (5-8),41.7
+2020,All ages,Both sexes,All levels,16.4
+2020,All ages,Both sexes,Primary / Lower Secondary (1–2),21.2
+2020,All ages,Both sexes,Upper / Post-Secondary (3–4),21.6
+2020,All ages,Both sexes,Tertiary (5-8),12.3
+2020,All ages,Male,All levels,8.0
+2020,All ages,Male,Primary / Lower Secondary (1–2),11.4
+2020,All ages,Male,Upper / Post-Secondary (3–4),10.6
+2020,All ages,Male,Tertiary (5-8),4.9
+2020,All ages,Female,All levels,26.3
+2020,All ages,Female,Primary / Lower Secondary (1–2),44.8
+2020,All ages,Female,Upper / Post-Secondary (3–4),36.8
+2020,All ages,Female,Tertiary (5-8),19.2
+2020,20 - 24,Both sexes,All levels,33.8
+2020,20 - 24,Both sexes,Upper / Post-Secondary (3–4),41.3
+2020,20 - 24,Both sexes,Tertiary (5-8),20.9
+2020,20 - 24,Male,All levels,27.9
+2020,20 - 24,Male,Upper / Post-Secondary (3–4),32.6
+2020,20 - 24,Male,Tertiary (5-8),17.7
+2020,20 - 24,Female,All levels,40.1
+2020,20 - 24,Female,Upper / Post-Secondary (3–4),52.4
+2020,20 - 24,Female,Tertiary (5-8),23.4
+2020,25 - 29,Both sexes,All levels,10.6
+2020,25 - 29,Both sexes,Upper / Post-Secondary (3–4),14.8
+2020,25 - 29,Both sexes,Tertiary (5-8),7.6
+2020,25 - 29,Male,All levels,7.6
+2020,25 - 29,Male,Upper / Post-Secondary (3–4),8.2
+2020,25 - 29,Male,Tertiary (5-8),6.0
+2020,25 - 29,Female,All levels,13.9
+2020,25 - 29,Female,Upper / Post-Secondary (3–4),25.7
+2020,25 - 29,Female,Tertiary (5-8),9.1
+2020,30 - 34,Both sexes,All levels,10.1
+2020,30 - 34,Both sexes,Primary / Lower Secondary (1–2),18.0
+2020,30 - 34,Both sexes,Upper / Post-Secondary (3–4),15.0
+2020,30 - 34,Both sexes,Tertiary (5-8),7.3
+2020,30 - 34,Male,All levels,4.7
+2020,30 - 34,Male,Upper / Post-Secondary (3–4),5.2
+2020,30 - 34,Male,Tertiary (5-8),3.7
+2020,30 - 34,Female,All levels,16.2
+2020,30 - 34,Female,Upper / Post-Secondary (3–4),30.3
+2020,30 - 34,Female,Tertiary (5-8),10.6
+2020,35 - 39,Both sexes,All levels,12.0
+2020,35 - 39,Both sexes,Primary / Lower Secondary (1–2),18.0
+2020,35 - 39,Both sexes,Upper / Post-Secondary (3–4),16.4
+2020,35 - 39,Both sexes,Tertiary (5-8),9.4
+2020,35 - 39,Male,All levels,3.4
+2020,35 - 39,Male,Upper / Post-Secondary (3–4),5.1
+2020,35 - 39,Female,All levels,21.8
+2020,35 - 39,Female,Primary / Lower Secondary (1–2),50.2
+2020,35 - 39,Female,Upper / Post-Secondary (3–4),34.6
+2020,35 - 39,Female,Tertiary (5-8),16.0
+2020,40 - 44,Both sexes,All levels,15.0
+2020,40 - 44,Both sexes,Primary / Lower Secondary (1–2),16.8
+2020,40 - 44,Both sexes,Upper / Post-Secondary (3–4),17.6
+2020,40 - 44,Both sexes,Tertiary (5-8),13.6
+2020,40 - 44,Male,All levels,4.3
+2020,40 - 44,Male,Upper / Post-Secondary (3–4),6.3
+2020,40 - 44,Male,Tertiary (5-8),2.5
+2020,40 - 44,Female,All levels,27.6
+2020,40 - 44,Female,Primary / Lower Secondary (1–2),40.5
+2020,40 - 44,Female,Upper / Post-Secondary (3–4),36.4
+2020,40 - 44,Female,Tertiary (5-8),23.6
+2020,45 - 49,Both sexes,All levels,15.0
+2020,45 - 49,Both sexes,Primary / Lower Secondary (1–2),18.0
+2020,45 - 49,Both sexes,Upper / Post-Secondary (3–4),17.2
+2020,45 - 49,Both sexes,Tertiary (5-8),13.4
+2020,45 - 49,Male,All levels,4.3
+2020,45 - 49,Male,Primary / Lower Secondary (1–2),7.7
+2020,45 - 49,Male,Upper / Post-Secondary (3–4),4.5
+2020,45 - 49,Male,Tertiary (5-8),3.2
+2020,45 - 49,Female,All levels,27.9
+2020,45 - 49,Female,Primary / Lower Secondary (1–2),43.1
+2020,45 - 49,Female,Upper / Post-Secondary (3–4),34.4
+2020,45 - 49,Female,Tertiary (5-8),23.5
+2020,50 - 54,Both sexes,All levels,17.2
+2020,50 - 54,Both sexes,Primary / Lower Secondary (1–2),20.5
+2020,50 - 54,Both sexes,Upper / Post-Secondary (3–4),20.5
+2020,50 - 54,Both sexes,Tertiary (5-8),13.9
+2020,50 - 54,Male,All levels,6.7
+2020,50 - 54,Male,Primary / Lower Secondary (1–2),10.6
+2020,50 - 54,Male,Upper / Post-Secondary (3–4),8.1
+2020,50 - 54,Male,Tertiary (5-8),3.7
+2020,50 - 54,Female,All levels,29.7
+2020,50 - 54,Female,Primary / Lower Secondary (1–2),50.7
+2020,50 - 54,Female,Upper / Post-Secondary (3–4),34.7
+2020,50 - 54,Female,Tertiary (5-8),23.6
+2020,55 - 59,Both sexes,All levels,19.0
+2020,55 - 59,Both sexes,Primary / Lower Secondary (1–2),22.3
+2020,55 - 59,Both sexes,Upper / Post-Secondary (3–4),22.2
+2020,55 - 59,Both sexes,Tertiary (5-8),14.9
+2020,55 - 59,Male,All levels,9.3
+2020,55 - 59,Male,Primary / Lower Secondary (1–2),12.9
+2020,55 - 59,Male,Upper / Post-Secondary (3–4),8.8
+2020,55 - 59,Male,Tertiary (5-8),7.6
+2020,55 - 59,Female,All levels,30.5
+2020,55 - 59,Female,Primary / Lower Secondary (1–2),44.6
+2020,55 - 59,Female,Upper / Post-Secondary (3–4),35.7
+2020,55 - 59,Female,Tertiary (5-8),22.0
+2020,60 - 64,Both sexes,All levels,26.4
+2020,60 - 64,Both sexes,Primary / Lower Secondary (1–2),25.5
+2020,60 - 64,Both sexes,Upper / Post-Secondary (3–4),26.1
+2020,60 - 64,Both sexes,Tertiary (5-8),27.4
+2020,60 - 64,Male,All levels,16.2
+2020,60 - 64,Male,Primary / Lower Secondary (1–2),17.2
+2020,60 - 64,Male,Upper / Post-Secondary (3–4),14.8
+2020,60 - 64,Male,Tertiary (5-8),16.3
+2020,60 - 64,Female,All levels,40.7
+2020,60 - 64,Female,Primary / Lower Secondary (1–2),44.8
+2020,60 - 64,Female,Upper / Post-Secondary (3–4),40.4
+2020,60 - 64,Female,Tertiary (5-8),39.5
+2021,All ages,Both sexes,All levels,18.1
+2021,All ages,Both sexes,Primary / Lower Secondary (1–2),21.4
+2021,All ages,Both sexes,Upper / Post-Secondary (3–4),25.3
+2021,All ages,Both sexes,Tertiary (5-8),13.4
+2021,All ages,Male,All levels,9.2
+2021,All ages,Male,Primary / Lower Secondary (1–2),12.8
+2021,All ages,Male,Upper / Post-Secondary (3–4),13.1
+2021,All ages,Male,Tertiary (5-8),5.8
+2021,All ages,Female,All levels,28.1
+2021,All ages,Female,Primary / Lower Secondary (1–2),47.1
+2021,All ages,Female,Upper / Post-Secondary (3–4),41.2
+2021,All ages,Female,Tertiary (5-8),20.3
+2021,20 - 24,Both sexes,All levels,39.3
+2021,20 - 24,Both sexes,Upper / Post-Secondary (3–4),46.2
+2021,20 - 24,Both sexes,Tertiary (5-8),30.0
+2021,20 - 24,Male,All levels,31.2
+2021,20 - 24,Male,Upper / Post-Secondary (3–4),35.5
+2021,20 - 24,Female,All levels,47.8
+2021,20 - 24,Female,Upper / Post-Secondary (3–4),60.5
+2021,20 - 24,Female,Tertiary (5-8),34.4
+2021,25 - 29,Both sexes,All levels,12.5
+2021,25 - 29,Both sexes,Upper / Post-Secondary (3–4),20.9
+2021,25 - 29,Both sexes,Tertiary (5-8),8.7
+2021,25 - 29,Male,All levels,12.9
+2021,25 - 29,Female,All levels,12.0
+2021,30 - 34,Both sexes,All levels,10.5
+2021,30 - 34,Both sexes,Upper / Post-Secondary (3–4),18.6
+2021,30 - 34,Both sexes,Tertiary (5-8),6.3
+2021,30 - 34,Female,All levels,16.6
+2021,35 - 39,Both sexes,All levels,13.1
+2021,35 - 39,Both sexes,Upper / Post-Secondary (3–4),19.7
+2021,35 - 39,Both sexes,Tertiary (5-8),10.1
+2021,35 - 39,Female,All levels,22.3
+2021,35 - 39,Female,Upper / Post-Secondary (3–4),39.4
+2021,35 - 39,Female,Tertiary (5-8),14.8
+2021,40 - 44,Both sexes,All levels,15.5
+2021,40 - 44,Both sexes,Upper / Post-Secondary (3–4),19.8
+2021,40 - 44,Both sexes,Tertiary (5-8),12.8
+2021,40 - 44,Female,All levels,28.5
+2021,40 - 44,Female,Upper / Post-Secondary (3–4),41.5
+2021,40 - 44,Female,Tertiary (5-8),21.3
+2021,45 - 49,Both sexes,All levels,16.0
+2021,45 - 49,Both sexes,Upper / Post-Secondary (3–4),21.0
+2021,45 - 49,Both sexes,Tertiary (5-8),13.2
+2021,45 - 49,Male,All levels,6.5
+2021,45 - 49,Female,All levels,26.7
+2021,45 - 49,Female,Upper / Post-Secondary (3–4),39.6
+2021,45 - 49,Female,Tertiary (5-8),22.2
+2021,50 - 54,Both sexes,All levels,17.4
+2021,50 - 54,Both sexes,Upper / Post-Secondary (3–4),21.3
+2021,50 - 54,Both sexes,Tertiary (5-8),14.5
+2021,50 - 54,Male,All levels,5.6
+2021,50 - 54,Female,All levels,31.4
+2021,50 - 54,Female,Upper / Post-Secondary (3–4),38.1
+2021,50 - 54,Female,Tertiary (5-8),25.4
+2021,55 - 59,Both sexes,All levels,21.9
+2021,55 - 59,Both sexes,Primary / Lower Secondary (1–2),24.9
+2021,55 - 59,Both sexes,Upper / Post-Secondary (3–4),23.1
+2021,55 - 59,Both sexes,Tertiary (5-8),19.8
+2021,55 - 59,Male,All levels,9.1
+2021,55 - 59,Female,All levels,36.9
+2021,55 - 59,Female,Upper / Post-Secondary (3–4),38.9
+2021,55 - 59,Female,Tertiary (5-8),31.7
+2021,60 - 64,Both sexes,All levels,29.3
+2021,60 - 64,Both sexes,Primary / Lower Secondary (1–2),28.3
+2021,60 - 64,Both sexes,Upper / Post-Secondary (3–4),28.5
+2021,60 - 64,Both sexes,Tertiary (5-8),30.4
+2021,60 - 64,Male,All levels,16.2
+2021,60 - 64,Female,All levels,46.1
+2021,60 - 64,Female,Upper / Post-Secondary (3–4),47.5
+2021,60 - 64,Female,Tertiary (5-8),47.4
+2022,All ages,Both sexes,All levels,17.8
+2022,All ages,Both sexes,Primary / Lower Secondary (1–2),22.0
+2022,All ages,Both sexes,Upper / Post-Secondary (3–4),25.1
+2022,All ages,Both sexes,Tertiary (5-8),13.1
+2022,All ages,Male,All levels,8.8
+2022,All ages,Male,Primary / Lower Secondary (1–2),11.4
+2022,All ages,Male,Upper / Post-Secondary (3–4),12.5
+2022,All ages,Male,Tertiary (5-8),5.7
+2022,All ages,Female,All levels,27.9
+2022,All ages,Female,Primary / Lower Secondary (1–2),47.8
+2022,All ages,Female,Upper / Post-Secondary (3–4),41.3
+2022,All ages,Female,Tertiary (5-8),19.9
+2022,20 - 24,Both sexes,All levels,36.8
+2022,20 - 24,Both sexes,Upper / Post-Secondary (3–4),46.6
+2022,20 - 24,Both sexes,Tertiary (5-8),19.6
+2022,20 - 24,Male,All levels,29.2
+2022,20 - 24,Male,Upper / Post-Secondary (3–4),35.9
+2022,20 - 24,Female,All levels,44.6
+2022,20 - 24,Female,Upper / Post-Secondary (3–4),57.8
+2022,25 - 29,Both sexes,All levels,12.6
+2022,25 - 29,Both sexes,Upper / Post-Secondary (3–4),19.4
+2022,25 - 29,Both sexes,Tertiary (5-8),8.9
+2022,25 - 29,Female,All levels,16.0
+2022,30 - 34,Both sexes,All levels,10.2
+2022,30 - 34,Both sexes,Upper / Post-Secondary (3–4),15.8
+2022,30 - 34,Both sexes,Tertiary (5-8),6.9
+2022,30 - 34,Female,All levels,15.1
+2022,35 - 39,Both sexes,All levels,12.0
+2022,35 - 39,Both sexes,Upper / Post-Secondary (3–4),18.0
+2022,35 - 39,Both sexes,Tertiary (5-8),9.0
+2022,35 - 39,Female,All levels,20.2
+2022,35 - 39,Female,Upper / Post-Secondary (3–4),34.5
+2022,35 - 39,Female,Tertiary (5-8),14.5
+2022,40 - 44,Both sexes,All levels,16.2
+2022,40 - 44,Both sexes,Upper / Post-Secondary (3–4),20.6
+2022,40 - 44,Both sexes,Tertiary (5-8),14.1
+2022,40 - 44,Female,All levels,29.2
+2022,40 - 44,Female,Upper / Post-Secondary (3–4),44.8
+2022,40 - 44,Female,Tertiary (5-8),23.9
+2022,45 - 49,Both sexes,All levels,15.5
+2022,45 - 49,Both sexes,Upper / Post-Secondary (3–4),19.1
+2022,45 - 49,Both sexes,Tertiary (5-8),13.4
+2022,45 - 49,Male,All levels,4.7
+2022,45 - 49,Female,All levels,27.3
+2022,45 - 49,Female,Upper / Post-Secondary (3–4),37.1
+2022,45 - 49,Female,Tertiary (5-8),22.9
+2022,50 - 54,Both sexes,All levels,18.1
+2022,50 - 54,Both sexes,Upper / Post-Secondary (3–4),22.2
+2022,50 - 54,Both sexes,Tertiary (5-8),16.1
+2022,50 - 54,Male,All levels,6.2
+2022,50 - 54,Female,All levels,32.8
+2022,50 - 54,Female,Upper / Post-Secondary (3–4),40.8
+2022,50 - 54,Female,Tertiary (5-8),28.1
+2022,55 - 59,Both sexes,All levels,20.6
+2022,55 - 59,Both sexes,Primary / Lower Secondary (1–2),24.1
+2022,55 - 59,Both sexes,Upper / Post-Secondary (3–4),24.7
+2022,55 - 59,Both sexes,Tertiary (5-8),15.8
+2022,55 - 59,Male,All levels,9.6
+2022,55 - 59,Female,All levels,33.3
+2022,55 - 59,Female,Upper / Post-Secondary (3–4),37.3
+2022,55 - 59,Female,Tertiary (5-8),26.2
+2022,60 - 64,Both sexes,All levels,29.4
+2022,60 - 64,Both sexes,Primary / Lower Secondary (1–2),23.1
+2022,60 - 64,Both sexes,Upper / Post-Secondary (3–4),31.0
+2022,60 - 64,Both sexes,Tertiary (5-8),31.8
+2022,60 - 64,Male,All levels,16.8
+2022,60 - 64,Male,Tertiary (5-8),22.5
+2022,60 - 64,Female,All levels,47.2
+2022,60 - 64,Female,Upper / Post-Secondary (3–4),50.1
+2022,60 - 64,Female,Tertiary (5-8),42.0
+2023,All ages,Both sexes,All levels,17.8
+2023,All ages,Both sexes,Primary / Lower Secondary (1–2),26.5
+2023,All ages,Both sexes,Upper / Post-Secondary (3–4),23.4
+2023,All ages,Both sexes,Tertiary (5-8),13.8
+2023,All ages,Male,All levels,9.1
+2023,All ages,Male,Primary / Lower Secondary (1–2),15.4
+2023,All ages,Male,Upper / Post-Secondary (3–4),12.1
+2023,All ages,Male,Tertiary (5-8),6.1
+2023,All ages,Female,All levels,27.4
+2023,All ages,Female,Primary / Lower Secondary (1–2),55.6
+2023,All ages,Female,Upper / Post-Secondary (3–4),39.5
+2023,All ages,Female,Tertiary (5-8),20.7
+2023,20 - 24,Both sexes,All levels,37.4
+2023,20 - 24,Both sexes,Upper / Post-Secondary (3–4),43.7
+2023,20 - 24,Both sexes,Tertiary (5-8),26.7
+2023,20 - 24,Male,All levels,32.0
+2023,20 - 24,Male,Upper / Post-Secondary (3–4),34.5
+2023,20 - 24,Female,All levels,43.3
+2023,20 - 24,Female,Upper / Post-Secondary (3–4),55.8
+2023,20 - 24,Female,Tertiary (5-8),25.6
+2023,25 - 29,Both sexes,All levels,11.0
+2023,25 - 29,Both sexes,Upper / Post-Secondary (3–4),16.6
+2023,25 - 29,Both sexes,Tertiary (5-8),8.2
+2023,25 - 29,Male,All levels,9.1
+2023,25 - 29,Female,All levels,12.9
+2023,30 - 34,Both sexes,All levels,10.3
+2023,30 - 34,Both sexes,Upper / Post-Secondary (3–4),17.0
+2023,30 - 34,Both sexes,Tertiary (5-8),6.2
+2023,30 - 34,Female,All levels,15.4
+2023,30 - 34,Female,Upper / Post-Secondary (3–4),33.3
+2023,35 - 39,Both sexes,All levels,14.3
+2023,35 - 39,Both sexes,Upper / Post-Secondary (3–4),21.3
+2023,35 - 39,Both sexes,Tertiary (5-8),10.9
+2023,35 - 39,Female,All levels,23.0
+2023,35 - 39,Female,Upper / Post-Secondary (3–4),46.1
+2023,35 - 39,Female,Tertiary (5-8),16.7
+2023,40 - 44,Both sexes,All levels,13.7
+2023,40 - 44,Both sexes,Upper / Post-Secondary (3–4),16.3
+2023,40 - 44,Both sexes,Tertiary (5-8),12.4
+2023,40 - 44,Female,All levels,23.0
+2023,40 - 44,Female,Upper / Post-Secondary (3–4),29.0
+2023,40 - 44,Female,Tertiary (5-8),19.9
+2023,45 - 49,Both sexes,All levels,15.7
+2023,45 - 49,Both sexes,Upper / Post-Secondary (3–4),17.8
+2023,45 - 49,Both sexes,Tertiary (5-8),14.8
+2023,45 - 49,Female,All levels,30.4
+2023,45 - 49,Female,Upper / Post-Secondary (3–4),45.1
+2023,45 - 49,Female,Tertiary (5-8),25.7
+2023,50 - 54,Both sexes,All levels,18.0
+2023,50 - 54,Both sexes,Upper / Post-Secondary (3–4),19.9
+2023,50 - 54,Both sexes,Tertiary (5-8),16.0
+2023,50 - 54,Male,All levels,2.6
+2023,50 - 54,Female,All levels,35.1
+2023,50 - 54,Female,Upper / Post-Secondary (3–4),39.0
+2023,50 - 54,Female,Tertiary (5-8),30.8
+2023,55 - 59,Both sexes,All levels,21.7
+2023,55 - 59,Both sexes,Primary / Lower Secondary (1–2),33.5
+2023,55 - 59,Both sexes,Upper / Post-Secondary (3–4),20.1
+2023,55 - 59,Both sexes,Tertiary (5-8),20.0
+2023,55 - 59,Male,All levels,11.1
+2023,55 - 59,Female,All levels,34.9
+2023,55 - 59,Female,Primary / Lower Secondary (1–2),58.6
+2023,55 - 59,Female,Upper / Post-Secondary (3–4),35.4
+2023,55 - 59,Female,Tertiary (5-8),30.9
+2023,60 - 64,Both sexes,All levels,27.3
+2023,60 - 64,Both sexes,Primary / Lower Secondary (1–2),28.8
+2023,60 - 64,Both sexes,Upper / Post-Secondary (3–4),24.9
+2023,60 - 64,Both sexes,Tertiary (5-8),30.3
+2023,60 - 64,Male,All levels,18.2
+2023,60 - 64,Male,Upper / Post-Secondary (3–4),20.4
+2023,60 - 64,Female,All levels,39.5
+2023,60 - 64,Female,Primary / Lower Secondary (1–2),48.0
+2023,60 - 64,Female,Upper / Post-Secondary (3–4),30.8
+2023,60 - 64,Female,Tertiary (5-8),45.2
+2024,All ages,Both sexes,All levels,17.4
+2024,All ages,Both sexes,Primary / Lower Secondary (1–2),22.4
+2024,All ages,Both sexes,Upper / Post-Secondary (3–4),24.6
+2024,All ages,Both sexes,Tertiary (5-8),12.9
+2024,All ages,Male,All levels,9.8
+2024,All ages,Male,Primary / Lower Secondary (1–2),14.8
+2024,All ages,Male,Upper / Post-Secondary (3–4),13.5
+2024,All ages,Male,Tertiary (5-8),6.3
+2024,All ages,Female,All levels,25.7
+2024,All ages,Female,Primary / Lower Secondary (1–2),41.7
+2024,All ages,Female,Upper / Post-Secondary (3–4),39.2
+2024,All ages,Female,Tertiary (5-8),18.8
+2024,20 - 24,Both sexes,All levels,39.4
+2024,20 - 24,Both sexes,Upper / Post-Secondary (3–4),51.0
+2024,20 - 24,Both sexes,Tertiary (5-8),18.6
+2024,20 - 24,Male,All levels,34.0
+2024,20 - 24,Male,Upper / Post-Secondary (3–4),39.8
+2024,20 - 24,Female,All levels,45.1
+2024,20 - 24,Female,Upper / Post-Secondary (3–4),65.2
+2024,25 - 29,Both sexes,All levels,11.4
+2024,25 - 29,Both sexes,Tertiary (5-8),9.5
+2024,25 - 29,Male,All levels,9.1
+2024,25 - 29,Female,All levels,13.9
+2024,30 - 34,Both sexes,All levels,10.7
+2024,30 - 34,Both sexes,Upper / Post-Secondary (3–4),19.6
+2024,30 - 34,Both sexes,Tertiary (5-8),7.9
+2024,30 - 34,Female,All levels,13.7
+2024,35 - 39,Both sexes,All levels,12.5
+2024,35 - 39,Both sexes,Upper / Post-Secondary (3–4),19.7
+2024,35 - 39,Both sexes,Tertiary (5-8),8.9
+2024,35 - 39,Female,All levels,20.4
+2024,35 - 39,Female,Upper / Post-Secondary (3–4),40.7
+2024,35 - 39,Female,Tertiary (5-8),12.7
+2024,40 - 44,Both sexes,All levels,15.0
+2024,40 - 44,Both sexes,Upper / Post-Secondary (3–4),17.9
+2024,40 - 44,Both sexes,Tertiary (5-8),12.9
+2024,40 - 44,Female,All levels,26.3
+2024,40 - 44,Female,Upper / Post-Secondary (3–4),34.0
+2024,40 - 44,Female,Tertiary (5-8),22.3
+2024,45 - 49,Both sexes,All levels,15.8
+2024,45 - 49,Both sexes,Upper / Post-Secondary (3–4),15.6
+2024,45 - 49,Both sexes,Tertiary (5-8),14.6
+2024,45 - 49,Male,All levels,6.4
+2024,45 - 49,Female,All levels,26.0
+2024,45 - 49,Female,Upper / Post-Secondary (3–4),31.1
+2024,45 - 49,Female,Tertiary (5-8),23.0
+2024,50 - 54,Both sexes,All levels,15.2
+2024,50 - 54,Both sexes,Upper / Post-Secondary (3–4),17.5
+2024,50 - 54,Both sexes,Tertiary (5-8),13.0
+2024,50 - 54,Male,All levels,5.7
+2024,50 - 54,Female,All levels,25.9
+2024,50 - 54,Female,Upper / Post-Secondary (3–4),31.5
+2024,50 - 54,Female,Tertiary (5-8),21.8
+2024,55 - 59,Both sexes,All levels,20.2
+2024,55 - 59,Both sexes,Upper / Post-Secondary (3–4),20.6
+2024,55 - 59,Both sexes,Tertiary (5-8),19.0
+2024,55 - 59,Male,All levels,8.6
+2024,55 - 59,Female,All levels,33.3
+2024,55 - 59,Female,Upper / Post-Secondary (3–4),38.2
+2024,55 - 59,Female,Tertiary (5-8),28.4
+2024,60 - 64,Both sexes,All levels,26.6
+2024,60 - 64,Both sexes,Primary / Lower Secondary (1–2),23.3
+2024,60 - 64,Both sexes,Upper / Post-Secondary (3–4),29.4
+2024,60 - 64,Both sexes,Tertiary (5-8),26.1
+2024,60 - 64,Male,All levels,17.7
+2024,60 - 64,Male,Upper / Post-Secondary (3–4),21.4
+2024,60 - 64,Female,All levels,37.7
+2024,60 - 64,Female,Upper / Post-Secondary (3–4),38.5
+2024,60 - 64,Female,Tertiary (5-8),38.3
+2025,All ages,Both sexes,All levels,17.8
+2025,All ages,Both sexes,Primary / Lower Secondary (1–2),26.7
+2025,All ages,Both sexes,Upper / Post-Secondary (3–4),25.4
+2025,All ages,Both sexes,Tertiary (5-8),12.6
+2025,All ages,Male,All levels,8.5
+2025,All ages,Male,Primary / Lower Secondary (1–2),15.7
+2025,All ages,Male,Upper / Post-Secondary (3–4),11.4
+2025,All ages,Male,Tertiary (5-8),5.4
+2025,All ages,Female,All levels,28.0
+2025,All ages,Female,Primary / Lower Secondary (1–2),54.8
+2025,All ages,Female,Upper / Post-Secondary (3–4),44.6
+2025,All ages,Female,Tertiary (5-8),19.1
+2025,20 - 24,Both sexes,All levels,37.1
+2025,20 - 24,Both sexes,Upper / Post-Secondary (3–4),48.7
+2025,20 - 24,Both sexes,Tertiary (5-8),19.0
+2025,20 - 24,Male,All levels,25.5
+2025,20 - 24,Male,Upper / Post-Secondary (3–4),29.8
+2025,20 - 24,Female,All levels,49.1
+2025,20 - 24,Female,Upper / Post-Secondary (3–4),73.4
+2025,25 - 29,Both sexes,All levels,11.0
+2025,25 - 29,Both sexes,Tertiary (5-8),7.5
+2025,25 - 29,Female,All levels,15.1
+2025,30 - 34,Both sexes,All levels,8.7
+2025,30 - 34,Both sexes,Upper / Post-Secondary (3–4),18.2
+2025,30 - 34,Female,All levels,14.9
+2025,35 - 39,Both sexes,All levels,13.6
+2025,35 - 39,Both sexes,Upper / Post-Secondary (3–4),20.3
+2025,35 - 39,Both sexes,Tertiary (5-8),10.8
+2025,35 - 39,Female,All levels,24.4
+2025,35 - 39,Female,Upper / Post-Secondary (3–4),41.2
+2025,35 - 39,Female,Tertiary (5-8),18.4
+2025,40 - 44,Both sexes,All levels,16.0
+2025,40 - 44,Both sexes,Upper / Post-Secondary (3–4),20.4
+2025,40 - 44,Both sexes,Tertiary (5-8),13.2
+2025,40 - 44,Male,All levels,6.3
+2025,40 - 44,Female,All levels,26.0
+2025,40 - 44,Female,Upper / Post-Secondary (3–4),44.4
+2025,40 - 44,Female,Tertiary (5-8),19.5
+2025,45 - 49,Both sexes,All levels,16.1
+2025,45 - 49,Both sexes,Upper / Post-Secondary (3–4),18.3
+2025,45 - 49,Both sexes,Tertiary (5-8),14.0
+2025,45 - 49,Male,All levels,5.3
+2025,45 - 49,Female,All levels,27.6
+2025,45 - 49,Female,Upper / Post-Secondary (3–4),34.7
+2025,45 - 49,Female,Tertiary (5-8),23.7
+2025,50 - 54,Both sexes,All levels,19.0
+2025,50 - 54,Both sexes,Upper / Post-Secondary (3–4),22.9
+2025,50 - 54,Both sexes,Tertiary (5-8),15.7
+2025,50 - 54,Male,All levels,8.3
+2025,50 - 54,Female,All levels,30.8
+2025,50 - 54,Female,Upper / Post-Secondary (3–4),45.7
+2025,50 - 54,Female,Tertiary (5-8),23.2
+2025,55 - 59,Both sexes,All levels,19.8
+2025,55 - 59,Both sexes,Upper / Post-Secondary (3–4),22.6
+2025,55 - 59,Both sexes,Tertiary (5-8),16.3
+2025,55 - 59,Male,All levels,10.3
+2025,55 - 59,Female,All levels,30.9
+2025,55 - 59,Female,Upper / Post-Secondary (3–4),34.1
+2025,55 - 59,Female,Tertiary (5-8),24.9
+2025,60 - 64,Both sexes,All levels,28.6
+2025,60 - 64,Both sexes,Primary / Lower Secondary (1–2),33.4
+2025,60 - 64,Both sexes,Upper / Post-Secondary (3–4),26.8
+2025,60 - 64,Both sexes,Tertiary (5-8),27.1
+2025,60 - 64,Male,All levels,15.2
+2025,60 - 64,Female,All levels,45.6
+2025,60 - 64,Female,Primary / Lower Secondary (1–2),69.1
+2025,60 - 64,Female,Upper / Post-Secondary (3–4),44.9
+2025,60 - 64,Female,Tertiary (5-8),38.2
