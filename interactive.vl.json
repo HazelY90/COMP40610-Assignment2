@@ -1,0 +1,756 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Employment dashboard with a coordinated year selection driven by the line chart.",
+    "title": {
+        "text": "Employment patterns in Ireland",
+        "subtitle": [
+            "Employment Rate: percentage of the population in employment.",
+            "Part-time Work Percentage: percentage of employment that is part-time.",
+            "Part-time Employment Rate = Employment Rate × Part-time Work Percentage.",
+            "Full-time Employment Rate = Employment Rate × (1 − Part-time Work Percentage)."
+        ],
+        "anchor": "start",
+        "fontSize": 20,
+        "subtitleFontSize": 11,
+        "offset": 14
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/HazelY90/COMP40610-Assignment2/refs/heads/main/AnnualEmploymentByWorkTime.csv",
+        "format": {
+            "type": "csv",
+            "parse": {
+                "Year": "number",
+                "Employment Rate": "number",
+                "Part-time Work Percentage": "number",
+                "Part-time Employment Rate": "number",
+                "Full-time Employment Rate": "number"
+            }
+        }
+    },
+    "concat": [
+        {
+            "width": 420,
+            "height": 250,
+            "title": "Employment and part-time employment rates over time",
+            "transform": [
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "age_select",
+                                "empty": false
+                            },
+                            "!age_select['Age Group'] && datum['Age Group'] === 'All ages'"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "education_select",
+                                "empty": false
+                            },
+                            "!education_select['Education Level'] && datum['Education Level'] === 'All levels'"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "sex_select",
+                                "empty": false
+                            },
+                            "!sex_select.Sex && datum.Sex === 'Both sexes'"
+                        ]
+                    }
+                },
+                {
+                    "fold": [
+                        "Employment Rate",
+                        "Part-time Employment Rate"
+                    ],
+                    "as": [
+                        "Rate Type",
+                        "Rate"
+                    ]
+                }
+            ],
+            "layer": [
+                {
+                    "mark": {
+                        "type": "line",
+                        "strokeWidth": 2.5,
+                        "invalid": "break-paths-filter-domains"
+                    },
+                    "encoding": {
+                        "color": {
+                            "field": "Rate Type",
+                            "type": "nominal",
+                            "scale": {
+                                "domain": [
+                                    "Employment Rate",
+                                    "Part-time Employment Rate"
+                                ],
+                                "range": [
+                                    "#C18A2B",
+                                    "#9B5DE5"
+                                ]
+                            },
+                            "legend": {
+                                "title": "Rate type",
+                                "orient": "bottom",
+                                "direction": "horizontal"
+                            }
+                        },
+                        "strokeDash": {
+                            "field": "Rate Type",
+                            "type": "nominal",
+                            "scale": {
+                                "domain": [
+                                    "Employment Rate",
+                                    "Part-time Employment Rate"
+                                ],
+                                "range": [
+                                    [
+                                        1,
+                                        0
+                                    ],
+                                    [
+                                        7,
+                                        4
+                                    ]
+                                ]
+                            },
+                            "legend": null
+                        }
+                    }
+                },
+                {
+                    "params": [
+                        {
+                            "name": "year_select",
+                            "select": {
+                                "type": "point",
+                                "fields": [
+                                    "Year"
+                                ],
+                                "on": "click",
+                                "toggle": "year_select.Year && indexof(year_select.Year, datum.Year) >= 0",
+                                "clear": false
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "point",
+                        "filled": true
+                    },
+                    "encoding": {
+                        "color": {
+                            "field": "Rate Type",
+                            "type": "nominal",
+                            "scale": {
+                                "domain": [
+                                    "Employment Rate",
+                                    "Part-time Employment Rate"
+                                ],
+                                "range": [
+                                    "#C18A2B",
+                                    "#9B5DE5"
+                                ]
+                            },
+                            "legend": null
+                        },
+                        "size": {
+                            "condition": {
+                                "param": "year_select",
+                                "empty": false,
+                                "value": 180
+                            },
+                            "value": 65
+                        }
+                    }
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "type": "ordinal",
+                    "axis": {
+                        "title": "Year",
+                        "labelAngle": 0
+                    }
+                },
+                "y": {
+                    "field": "Rate",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            0,
+                            100
+                        ]
+                    },
+                    "axis": {
+                        "title": "Employment rate (%)",
+                        "tickCount": 6
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Sex",
+                        "type": "nominal",
+                        "title": "Sex"
+                    },
+                    {
+                        "field": "Age Group",
+                        "type": "nominal",
+                        "title": "Age group"
+                    },
+                    {
+                        "field": "Education Level",
+                        "type": "nominal",
+                        "title": "Education"
+                    },
+                    {
+                        "field": "Rate Type",
+                        "type": "nominal",
+                        "title": "Rate type"
+                    },
+                    {
+                        "field": "Employment Rate",
+                        "type": "quantitative",
+                        "title": "Employment rate",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "Part-time Employment Rate",
+                        "type": "quantitative",
+                        "title": "Part-time employment rate",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        },
+        {
+            "width": 420,
+            "height": 250,
+            "title": "Part-time work share and employment rate",
+            "transform": [
+                {
+                    "filter": "datum['Has Part-time Data'] === 'True' && isValid(datum['Part-time Work Percentage']) && isValid(datum['Employment Rate'])"
+                }
+            ],
+            "layer": [
+                {
+                    "mark": {
+                        "type": "point",
+                        "filled": true,
+                        "size": 70,
+                        "color": "#B8B8B8",
+                        "opacity": 0.25
+                    }
+                },
+                {
+                    "params": [
+                        {
+                            "name": "sex_select",
+                            "select": {
+                                "type": "point",
+                                "fields": [
+                                    "Sex"
+                                ],
+                                "toggle": "sex_select.Sex && indexof(sex_select.Sex, datum.value) >= 0",
+                                "clear": false
+                            },
+                            "bind": "legend"
+                        }
+                    ],
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "year_select"
+                            }
+                        },
+                        {
+                            "filter": {
+                                "param": "sex_select"
+                            }
+                        },
+                        {
+                            "filter": {
+                                "param": "education_select"
+                            }
+                        },
+                        {
+                            "filter": {
+                                "param": "age_select"
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "point",
+                        "filled": true,
+                        "size": 70,
+                        "opacity": 0.85
+                    },
+                    "encoding": {
+                        "color": {
+                            "field": "Sex",
+                            "type": "nominal",
+                            "scale": {
+                                "domain": [
+                                    "Both sexes",
+                                    "Male",
+                                    "Female"
+                                ],
+                                "range": [
+                                    "#E15759",
+                                    "#4E79A7",
+                                    "#F2CF5B"
+                                ]
+                            },
+                            "legend": {
+                                "title": "Sex (click to select)",
+                                "orient": "bottom",
+                                "direction": "horizontal"
+                            }
+                        }
+                    }
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "Part-time Work Percentage",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            0,
+                            80
+                        ]
+                    },
+                    "axis": {
+                        "title": "Part-time work percentage (%)",
+                        "tickCount": 5
+                    }
+                },
+                "y": {
+                    "field": "Employment Rate",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            0,
+                            100
+                        ]
+                    },
+                    "axis": {
+                        "title": "Employment rate (%)",
+                        "tickCount": 6
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Sex",
+                        "type": "nominal",
+                        "title": "Sex"
+                    },
+                    {
+                        "field": "Age Group",
+                        "type": "nominal",
+                        "title": "Age group"
+                    },
+                    {
+                        "field": "Education Level",
+                        "type": "nominal",
+                        "title": "Education"
+                    },
+                    {
+                        "field": "Employment Rate",
+                        "type": "quantitative",
+                        "title": "Employment rate",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "Part-time Work Percentage",
+                        "type": "quantitative",
+                        "title": "Part-time work",
+                        "format": ".1f"
+                    }
+                ]
+            }
+        },
+        {
+            "width": 420,
+            "height": 270,
+            "title": "Employment rate composition by education",
+            "params": [
+                {
+                    "name": "education_select",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "Education Level"
+                        ],
+                        "on": "click",
+                        "toggle": "education_select['Education Level'] && indexof(education_select['Education Level'], datum['Education Level']) >= 0",
+                        "clear": false
+                    }
+                }
+            ],
+            "transform": [
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "year_select",
+                                "empty": false
+                            },
+                            "!year_select.Year && datum.Year === 2025"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "age_select",
+                                "empty": false
+                            },
+                            "!age_select['Age Group'] && datum['Age Group'] === 'All ages'"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "sex_select",
+                                "empty": false
+                            },
+                            "!sex_select.Sex && datum.Sex === 'Both sexes'"
+                        ]
+                    }
+                },
+                {
+                    "filter": "datum['Education Level'] !== 'All levels'"
+                },
+                {
+                    "fold": [
+                        "Full-time Employment Rate",
+                        "Part-time Employment Rate",
+                        "Employment Rate"
+                    ],
+                    "as": [
+                        "Rate Type",
+                        "Rate"
+                    ]
+                },
+                {
+                    "filter": "(datum['Has Part-time Data'] === 'True' && datum['Rate Type'] !== 'Employment Rate') || (datum['Has Part-time Data'] !== 'True' && datum['Rate Type'] === 'Employment Rate')"
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "cursor": "pointer"
+            },
+            "encoding": {
+                "x": {
+                    "field": "Education Level",
+                    "type": "nominal",
+                    "sort": [
+                        "Primary / Lower Secondary (1–2)",
+                        "Upper / Post-Secondary (3–4)",
+                        "Tertiary (5-8)"
+                    ],
+                    "axis": {
+                        "title": null,
+                        "labelAngle": -18,
+                        "labelLimit": 180
+                    }
+                },
+                "y": {
+                    "field": "Rate",
+                    "type": "quantitative",
+                    "stack": "zero",
+                    "scale": {
+                        "domain": [
+                            0,
+                            100
+                        ]
+                    },
+                    "axis": {
+                        "title": "Employment rate (%)",
+                        "tickCount": 6
+                    }
+                },
+                "color": {
+                    "condition": {
+                        "param": "education_select",
+                        "field": "Rate Type",
+                        "type": "nominal",
+                        "scale": {
+                            "domain": [
+                                "Full-time Employment Rate",
+                                "Part-time Employment Rate",
+                                "Employment Rate"
+                            ],
+                            "range": [
+                                "#2A9D8F",
+                                "#9B5DE5",
+                                "#C18A2B"
+                            ]
+                        },
+                        "legend": {
+                            "title": "Rate type",
+                            "orient": "bottom",
+                            "direction": "horizontal",
+                            "labelExpr": "datum.label === 'Employment Rate' ? 'Employment rate (no breakdown)' : replace(datum.label, ' Employment Rate', '')"
+                        }
+                    },
+                    "value": "#B8B8B8"
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Sex",
+                        "type": "nominal",
+                        "title": "Sex"
+                    },
+                    {
+                        "field": "Education Level",
+                        "type": "nominal",
+                        "title": "Education"
+                    },
+                    {
+                        "field": "Rate Type",
+                        "type": "nominal",
+                        "title": "Rate type"
+                    },
+                    {
+                        "field": "Rate",
+                        "type": "quantitative",
+                        "title": "Rate",
+                        "format": ".2f"
+                    },
+                    {
+                        "field": "Has Part-time Data",
+                        "type": "nominal",
+                        "title": "Part-time data available"
+                    }
+                ]
+            }
+        },
+        {
+            "width": 420,
+            "height": 270,
+            "title": "Employment rate composition by age",
+            "params": [
+                {
+                    "name": "age_select",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "Age Group"
+                        ],
+                        "on": "click",
+                        "toggle": "age_select['Age Group'] && indexof(age_select['Age Group'], datum['Age Group']) >= 0",
+                        "clear": false
+                    }
+                }
+            ],
+            "transform": [
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "year_select",
+                                "empty": false
+                            },
+                            "!year_select.Year && datum.Year === 2025"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "education_select",
+                                "empty": false
+                            },
+                            "!education_select['Education Level'] && datum['Education Level'] === 'All levels'"
+                        ]
+                    }
+                },
+                {
+                    "filter": {
+                        "or": [
+                            {
+                                "param": "sex_select",
+                                "empty": false
+                            },
+                            "!sex_select.Sex && datum.Sex === 'Both sexes'"
+                        ]
+                    }
+                },
+                {
+                    "filter": "datum['Age Group'] !== 'All ages'"
+                },
+                {
+                    "fold": [
+                        "Full-time Employment Rate",
+                        "Part-time Employment Rate",
+                        "Employment Rate"
+                    ],
+                    "as": [
+                        "Rate Type",
+                        "Rate"
+                    ]
+                },
+                {
+                    "filter": "(datum['Has Part-time Data'] === 'True' && datum['Rate Type'] !== 'Employment Rate') || (datum['Has Part-time Data'] !== 'True' && datum['Rate Type'] === 'Employment Rate')"
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "cursor": "pointer"
+            },
+            "encoding": {
+                "x": {
+                    "field": "Age Group",
+                    "type": "ordinal",
+                    "sort": [
+                        "20 - 24",
+                        "25 - 29",
+                        "30 - 34",
+                        "35 - 39",
+                        "40 - 44",
+                        "45 - 49",
+                        "50 - 54",
+                        "55 - 59",
+                        "60 - 64"
+                    ],
+                    "axis": {
+                        "title": "Age group",
+                        "labelAngle": -35
+                    }
+                },
+                "y": {
+                    "field": "Rate",
+                    "type": "quantitative",
+                    "stack": "zero",
+                    "scale": {
+                        "domain": [
+                            0,
+                            100
+                        ]
+                    },
+                    "axis": {
+                        "title": "Employment rate (%)",
+                        "tickCount": 6
+                    }
+                },
+                "color": {
+                    "condition": {
+                        "param": "age_select",
+                        "field": "Rate Type",
+                        "type": "nominal",
+                        "scale": {
+                            "domain": [
+                                "Full-time Employment Rate",
+                                "Part-time Employment Rate",
+                                "Employment Rate"
+                            ],
+                            "range": [
+                                "#2A9D8F",
+                                "#9B5DE5",
+                                "#C18A2B"
+                            ]
+                        },
+                        "legend": null
+                    },
+                    "value": "#B8B8B8"
+                },
+                "tooltip": [
+                    {
+                        "field": "Year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Sex",
+                        "type": "nominal",
+                        "title": "Sex"
+                    },
+                    {
+                        "field": "Age Group",
+                        "type": "nominal",
+                        "title": "Age group"
+                    },
+                    {
+                        "field": "Rate Type",
+                        "type": "nominal",
+                        "title": "Rate type"
+                    },
+                    {
+                        "field": "Rate",
+                        "type": "quantitative",
+                        "title": "Rate",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        }
+    ],
+    "columns": 2,
+    "spacing": 26,
+    "resolve": {
+        "scale": {
+            "color": "independent"
+        },
+        "legend": {
+            "color": "independent"
+        }
+    },
+    "config": {
+        "background": "white",
+        "font": "Arial",
+        "view": {
+            "stroke": null
+        },
+        "axis": {
+            "labelFontSize": 11,
+            "titleFontSize": 12,
+            "titlePadding": 8,
+            "gridColor": "#E6E6E6",
+            "domainColor": "#888888",
+            "tickColor": "#BBBBBB"
+        },
+        "legend": {
+            "labelFontSize": 11,
+            "titleFontSize": 12,
+            "symbolSize": 100
+        },
+        "title": {
+            "font": "Arial",
+            "anchor": "start",
+            "fontSize": 15
+        },
+        "concat": {
+            "spacing": 26
+        }
+    }
+}
