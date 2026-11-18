@@ -6,7 +6,7 @@ An interactive Vega-Lite dashboard exploring employment rates, part-time work, a
 
 ## Data sources
 
-The data comes from Central Statistics Office (CSO) High Value Datasets: annual employment rates and [ALF02 Annual Percentage of Part-time Work](https://data.cso.ie/table/ALF02). The project keeps national records for Ireland and joins the datasets by year, age, sex, and education level. Part-time and full-time employment rates are derived from the two source percentages; missing values are not replaced with zero. See the [data-cleaning](datacleaning_alf02.ipynb) and [data-preparation](dataprepare.ipynb) notebooks.
+The data comes from Central Statistics Office (CSO) High Value Datasets: ALF01 Annual Employment Rates and ALF02 Annual Percentage of Part-time Work. The project keeps national records for Ireland and joins the datasets by year, age, sex, and education level. Part-time and full-time employment rates are derived from the two source percentages; missing values are not replaced with zero. See the [data-cleaning](datacleaning_alf02.ipynb) and [data-preparation](dataprepare.ipynb) notebooks.
 
 ## Charts
 
